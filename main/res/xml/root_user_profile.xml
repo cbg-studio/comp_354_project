@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory app:title="User Information">
+
+        <EditTextPreference
+            app:key="name"
+            app:title="Name"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="birth date"
+            app:title="Date of Birth"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            android:inputType="numberDecimal"
+            android:digits="0123456789"
+            app:key="weight"
+            app:title="Weight (lbs)"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="gender"
+            app:title="Gender"
+            app:useSimpleSummaryProvider="true" />
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
