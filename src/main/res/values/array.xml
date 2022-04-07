@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Exercise Unit Settings-->
+    <string-array name="unit_names">
+        <item>Decimal</item>
+        <item>Pounds/Mile</item>
+    </string-array>
+
+    <string-array name="unit_values">
+        <item>Decimal</item>
+        <item>Pounds/Mile</item>
+    </string-array>
+    
+    <string-array name="language_names">
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+
+</resources>
